@@ -349,6 +349,7 @@ billing_guest_req_physical_withshipping: &guestBillingReqWithShipping
     billing_fax: %noValue%
     ship_to_this_address: Yes
     ship_to_different_address: %noValue%
+    billing_gender: Male
 
 billing_guest_withshipping_usa: &guestBillingWithShippingUsa
     billing_address_choice: New Address
@@ -715,7 +716,8 @@ guest_flatrate_checkmoney: &guestFlatrateCheck
             general_name: %noValue%
     checkout_as_customer: *guest
     billing_address_data: *guestBillingReqWithShipping
-    shipping_data: *flatRate
+    #shipping_data: *flatRate
+    shipping_data:
     payment_data: *checkMoney
 
 guest_flatrate_checkmoney_usa:

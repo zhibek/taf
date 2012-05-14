@@ -113,8 +113,6 @@ class Product_Helper extends Mage_Selenium_TestCase
     {
         $tabData = array();
         $needFilling = false;
-
-//var_dump($productData);die;
         
         foreach ($productData as $key => $value) {
             if (preg_match('/^' . $tabName . '/', $key)) {

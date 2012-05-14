@@ -57,6 +57,7 @@ onepage_checkout:
                             billing_address_choice: //select[@id='billing-address-select']
                             billing_state: //select[@id='billing:region_id']
                             billing_country: //select[@id='billing:country_id']
+                            billing_gender: //select[@name='billing[gender]']
                         fields:
                             billing_first_name: //input[@id='billing:firstname']
                             billing_last_name: //input[@id='billing:lastname']
@@ -160,13 +161,15 @@ onepage_checkout:
                             price_totals: //table[@id='checkout-review-table']/tfoot
                             product_line:  //table[@id='checkout-review-table']/tbody/tr
                         fields:
-                            product_name: //table[@id='checkout-review-table']/tbody//td[h3= '%productName%']
-                            product_price: //table[@id='checkout-review-table']/tbody/tr[./td/h3[contains(.,'%productName%')]]/td[2]/span[contains(.,'%price%')]
+                            product_name: //table[@id='shopping-cart-table']/tbody/tr/td[1]
+                            product_price: //table[@id='shopping-cart-table']/tbody/tr/td.price
                             product_qty: //table[@id='checkout-review-table']/tbody/tr[./td/h3[contains(.,'%productName%')]]/td[3][contains(.,'%qty%')]
                             product_subtotal: //table[@id='checkout-review-table']/tbody/tr[./td/h3[contains(.,'%productName%')]]/td[4][contains(.,'%subtotal%')]
                             subtotal_total: //table[@id='checkout-review-table']/tfoot/tr[contains(.,'Subtotal')]/td[contains(.,'%subtotalTotal%')]
                             shipping_total: //table[@id='checkout-review-table']/tfoot/tr[contains(.,'Shipping')]/td[contains(.,'%shippingTotal%')]
                             grand_total: //table[@id='checkout-review-table']/tfoot/tr[contains(.,'Grand Total')]/td[contains(.,'%grandTotal%')]
+                        checkboxes:
+                            terms: //input[@id='agreement-1']
                         buttons:
                             place_order: //button[span='Place Order']
                         links:
@@ -175,8 +178,10 @@ onepage_checkout:
                     checkout_progress:
                         xpath: //div[@class='block block-progress opc-block-progress']
                         fields:
-                            billing_address_checkout: //dt[contains(.,'Billing Address')]/following-sibling::dd[1]/address
-                            shipping_address_checkout: //dt[contains(.,'Shipping Address')]/following-sibling::dd[1]/address
+                            #billing_address_checkout: //dt[contains(.,'Billing Address')]/following-sibling::dd[1]/address
+                            #shipping_address_checkout: //dt[contains(.,'Shipping Address')]/following-sibling::dd[1]/address
+                            billing_address_checkout: //address
+                            shipping_address_checkout: //address
                             shipping_method_checkout: //dt[contains(.,'Shipping Method')]/following-sibling::dd[1]
                             payment_method_checkout: //dt[contains(.,'Payment Method')]/following-sibling::dd[1]
                         links:
