@@ -321,7 +321,8 @@ class ShoppingCart_Helper extends Mage_Selenium_TestCase
             }
             $this->clickButton('update_shopping_cart');
         }
-        $this->assertTrue($this->successMessage('shopping_cart_is_empty'), 'Shopping cart is not empty');
+        $successMessage = $this->successMessage('shopping_cart_is_empty');
+        $this->assertTrue($successMessage['success'], 'Shopping cart is not empty');
     }
 
     /**

@@ -440,7 +440,7 @@ simple_product_visible:
     prices_tax_class: None
     inventory_qty: 50
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
 
 simple_product:
@@ -507,7 +507,7 @@ simple_product:
     inventory_qty_increments_default: No
     inventory_qty_increments: 5
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     related_data: *relatedProductsData
     up_sells_data: *upSellsProductsData
@@ -559,7 +559,7 @@ duplicate_simple:
     design_display_product_options_in: Product Info Column
     gift_options_allow_gift_message_default: No
     gift_options_allow_gift_message: Yes
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     related_data: *relatedProductsData
     up_sells_data: *upSellsProductsData
@@ -595,7 +595,7 @@ virtual_product_visible:
     prices_tax_class: None
     inventory_qty: 50
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
 
 virtual_product:
@@ -660,7 +660,7 @@ virtual_product:
     inventory_qty_increments_default: No
     inventory_qty_increments: 5
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     related_data: *relatedProductsData
     up_sells_data: *upSellsProductsData
@@ -710,7 +710,7 @@ duplicate_virtual:
     design_display_product_options_in: Product Info Column
     gift_options_allow_gift_message_default: No
     gift_options_allow_gift_message: Yes
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     related_data: *relatedProductsData
     up_sells_data: *upSellsProductsData
@@ -746,7 +746,7 @@ dynamic_bundle_visible:
     general_status: Enabled
     general_visibility: Catalog, Search
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     bundle_items_data:
         item_1: %noValue%
@@ -786,7 +786,7 @@ fixed_bundle_visible:
     prices_price: 12.55
     prices_tax_class: None
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     bundle_items_data:
         item_1: %noValue%
@@ -829,7 +829,7 @@ dynamic_bundle:
     inventory_qty_increments_default: No
     inventory_qty_increments: 5
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     related_data: *relatedProductsData
     up_sells_data: *upSellsProductsData
@@ -876,7 +876,7 @@ fixed_bundle:
     inventory_qty_increments_default: No
     inventory_qty_increments: 5
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     related_data: *relatedProductsData
     up_sells_data: *upSellsProductsData
@@ -917,7 +917,7 @@ duplicate_fixed_bundle:
     design_display_product_options_in: Product Info Column
     gift_options_allow_gift_message_default: No
     gift_options_allow_gift_message: Yes
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     related_data: *relatedProductsData
     up_sells_data: *upSellsProductsData
@@ -982,7 +982,7 @@ duplicate_dynamic_bundle:
     design_display_product_options_in: Product Info Column
     gift_options_allow_gift_message_default: No
     gift_options_allow_gift_message: Yes
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     related_data: *relatedProductsData
     up_sells_data: *upSellsProductsData
@@ -1035,7 +1035,7 @@ grouped_product_visible:
     general_status: Enabled
     general_visibility: Catalog, Search
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     associated_grouped_data: *associatedProductsGroupedData
 
@@ -1071,7 +1071,7 @@ grouped_product:
     inventory_qty_increments_default: No
     inventory_qty_increments: 5
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     related_data: *relatedProductsData
     up_sells_data: *upSellsProductsData
@@ -1103,7 +1103,7 @@ duplicate_grouped:
     design_display_product_options_in: Product Info Column
     gift_options_allow_gift_message_default: No
     gift_options_allow_gift_message: Yes
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     related_data: *relatedProductsData
     up_sells_data: *upSellsProductsData
@@ -1151,7 +1151,7 @@ configurable_product_visible:
     prices_price: 18.95
     prices_tax_class: None
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     associated_configurable_data: %noValue%
 
@@ -1197,7 +1197,7 @@ configurable_product:
     inventory_qty_increments_default: No
     inventory_qty_increments: 5
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     related_data: *relatedProductsData
     up_sells_data: *upSellsProductsData
@@ -1239,7 +1239,7 @@ duplicate_configurable:
     design_display_product_options_in: Product Info Column
     gift_options_allow_gift_message_default: No
     gift_options_allow_gift_message: Yes
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     related_data: *relatedProductsData
     up_sells_data: *upSellsProductsData
@@ -1275,7 +1275,7 @@ downloadable_product_visible:
     prices_tax_class: None
     inventory_qty: 50
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     downloadable_information_data: *downloadableData
 
@@ -1326,7 +1326,7 @@ downloadable_product:
     inventory_qty_increments_default: No
     inventory_qty_increments: 5
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     related_data: *relatedProductsData
     up_sells_data: *upSellsProductsData
@@ -1363,7 +1363,7 @@ duplicate_downloadable:
     design_display_product_options_in: Product Info Column
     gift_options_allow_gift_message_default: No
     gift_options_allow_gift_message: Yes
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     related_data: *relatedProductsData
     up_sells_data: *upSellsProductsData
@@ -1404,7 +1404,7 @@ frontend_simple_product_details_validation:
     inventory_backorders_default: No
     inventory_backorders: Allow Qty Below 0
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     custom_options_data: *customOptionsData
 
@@ -1436,7 +1436,7 @@ frontend_virtual_product_details_validation:
     inventory_qty_increments_default: No
     inventory_qty_increments: 5
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     custom_options_data: *customOptionsData
 
@@ -1459,7 +1459,7 @@ simple_product_related: &simple_product_related
     inventory_manage_stock: Yes
     inventory_qty: 120
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
 
 virtual_product_related: &virtual_product_related
@@ -1474,7 +1474,7 @@ virtual_product_related: &virtual_product_related
     prices_tax_class: None
     inventory_qty: 50
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
 
 downloadable_product_related: &downloadable_product_related
@@ -1489,7 +1489,7 @@ downloadable_product_related: &downloadable_product_related
     prices_tax_class: None
     inventory_qty: 50
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     downloadable_information_data:
         downloadable_samples_title: Samples Title
@@ -1526,7 +1526,7 @@ bundle_product_related: &bundle_product_related
     prices_price_type: Fixed
     prices_price: 66.32
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     bundle_items_data:
         ship_bundle_items: Separately
@@ -1554,7 +1554,7 @@ configurable_product_related: &configurable_product_related
     prices_price: 4.95
     prices_tax_class: None
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     associated_configurable_data:
         associated_products_attribute_name_default: test
@@ -1571,7 +1571,7 @@ grouped_product_related: &grouped_product_related
     general_status: Enabled
     general_visibility: Catalog, Search
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     associated_grouped_data:
         associated_grouped_1:
@@ -1804,7 +1804,7 @@ simple_multi_checkout_options:
     prices_tax_class: None
     inventory_qty: 50
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     custom_options_data: *customOptionsData
 
@@ -1824,7 +1824,7 @@ virtual_multi_checkout_options:
     prices_tax_class: None
     inventory_qty: 50
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     custom_options_data: *customOptionsData
 
@@ -1844,7 +1844,7 @@ downloadable_multi_checkout:
     prices_tax_class: None
     inventory_qty: 50
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     downloadable_information_data:
         downloadable_samples_title: Samples Title
@@ -1879,7 +1879,7 @@ downloadable_product_visible_multi_checkout:
     prices_tax_class: None
     inventory_qty: 50
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     downloadable_information_data:
         downloadable_samples_title: Samples Title
@@ -1914,7 +1914,7 @@ downloadable_multi_checkout_options_no_links:
     prices_tax_class: None
     inventory_qty: 50
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     custom_options_data: *customOptionsData
     downloadable_information_data:
@@ -1938,7 +1938,7 @@ downloadable_multi_checkout_no_links:
     prices_tax_class: None
     inventory_qty: 50
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     downloadable_information_data:
             downloadable_samples_title: Samples Title
@@ -1961,7 +1961,7 @@ downloadable_multi_checkout_options_links:
     prices_tax_class: None
     inventory_qty: 50
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     custom_options_data: *customOptionsData
     downloadable_information_data: *downloadableData
@@ -1979,7 +1979,7 @@ grouped_multi_checkout_options:
     general_status: Enabled
     general_visibility: Catalog, Search
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     associated_grouped_data: *associatedProductsGroupedData
 
@@ -2063,7 +2063,7 @@ fixed_bundle_multi_checkout:
     prices_price: 12.55
     prices_tax_class: None
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     bundle_items_data: *bundleDataMultiCheckout
 
@@ -2078,7 +2078,7 @@ dynamic_bundle_multi_checkout:
     general_status: Enabled
     general_visibility: Catalog, Search
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     bundle_items_data: *bundleDataMultiCheckout
 
@@ -2097,7 +2097,7 @@ fixed_bundle_multi_checkout_options:
     prices_price: 12.55
     prices_tax_class: None
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     custom_options_data: *customOptionsData
     bundle_items_data: *bundleDataMultiCheckout
@@ -2113,7 +2113,7 @@ dynamic_bundle_multi_checkout_options:
     general_status: Enabled
     general_visibility: Catalog, Search
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     custom_options_data: *customOptionsData
     bundle_items_data: *bundleDataMultiCheckout
@@ -2159,7 +2159,7 @@ configurable_multi_checkout:
     prices_price: 18.95
     prices_tax_class: None
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     associated_configurable_data:
         associated_products_attribute_name_default: %noValue%
@@ -2180,7 +2180,7 @@ configurable_multi_checkout_options:
     prices_price: 18.95
     prices_tax_class: None
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     categories: Default Category
     custom_options_data: *customOptionsData
     associated_configurable_data:

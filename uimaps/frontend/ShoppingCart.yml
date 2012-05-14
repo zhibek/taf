@@ -101,6 +101,6 @@ shopping_cart:
         links:
             checkout_with_multiple_addresses: //a[text()='Checkout with Multiple Addresses']
         messages:
-            product_added_to_cart:  //li[normalize-space(@class)='success-msg' and contains(.,'%productName% was added to your shopping cart.')]
-            shopping_cart_is_empty: //h1[contains(.,'Shopping Cart is Empty')]
+            product_added_to_cart:  //li[normalize-space(@class)='success-msg' and contains(.,'%productName% was added to your shopping bag.')]
+            shopping_cart_is_empty: //h1[contains(.,'Shopping Bag is Empty')]
             success_applied_coupon: //li[normalize-space(@class)='success-msg' and contains(.,'Coupon code "%couponCode%" was applied.')]

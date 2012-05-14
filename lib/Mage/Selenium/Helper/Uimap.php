@@ -115,6 +115,7 @@ class Mage_Selenium_Helper_Uimap extends Mage_Selenium_Helper_Abstract
      */
     public function getUimap($area)
     {
+//throw new Exception(__METHOD__ . ':' . $area);
         if (!array_key_exists($area, $this->_uimapData)) {
             throw new OutOfRangeException();
         }
@@ -133,6 +134,9 @@ class Mage_Selenium_Helper_Uimap extends Mage_Selenium_Helper_Abstract
      */
     public function getUimapPage($area, $pageKey, $paramsDecorator = null)
     {
+//if (!in_array($pageKey, array('log_in_to_admin','manage_products','new_product_settings'))) {
+//throw new Exception(__METHOD__ . ':' . $area . ':' . $pageKey);
+//}
         $page = isset($this->_uimapData[$area][$pageKey]) ? $this->_uimapData[$area][$pageKey] : null;
         if ($page && $paramsDecorator) {
             $page->assignParams($paramsDecorator);
@@ -151,6 +155,7 @@ class Mage_Selenium_Helper_Uimap extends Mage_Selenium_Helper_Abstract
      */
     public function getUimapPageByMca($area, $mca, $paramsDecorator = null)
     {
+//throw new Exception(__METHOD__ . ':' . $area . ':' . $mca);
         if (!isset($area)) {
             return null;
         }

@@ -864,13 +864,17 @@ class Mage_Selenium_TestCase extends PHPUnit_Extensions_SeleniumTestCase
     /**
      * Gets all messages on the page
      */
-    protected function _parseMessages()
+    protected function _parseMessages($specialCaseHtml = false)
     {
         Mage_Selenium_TestCase::$_messages['success'] = $this->getElementsByXpath(self::$xpathSuccessMessage);
         Mage_Selenium_TestCase::$_messages['error'] = $this->getElementsByXpath(self::$xpathErrorMessage);
+        if (!$specialCaseHtml) {
         Mage_Selenium_TestCase::$_messages['validation'] = $this->getElementsByXpath(self::$xpathValidationMessage,
                                                                                      'text',
                                                                                      self::$xpathFieldNameWithValidationMessage);
+        } else {
+            Mage_Selenium_TestCase::$_messages['validation'] = $this->getElementsByXpath(self::$xpathValidationMessage);
+        }
     }
 
     /**
@@ -880,9 +884,9 @@ class Mage_Selenium_TestCase extends PHPUnit_Extensions_SeleniumTestCase
      *
      * @return array
      */
-    public function getMessagesOnPage($type = null)
+    public function getMessagesOnPage($type = null, $specialCaseHtml = false)
     {
-        $this->_parseMessages();
+        $this->_parseMessages($specialCaseHtml);
         if ($type) {
             return Mage_Selenium_TestCase::$_messages[$type];
         }

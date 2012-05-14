@@ -31,8 +31,8 @@ customer_address_for_order:
     last_name: Stevenson(billing.req)
     street_address_line_1: street address 1(billing.req)
     city: Los Angeles
-    country: United States
-    state: California
+    country: United Kingdom
+#    state: California
     zip_code: 90064
     telephone: (091)019-019(billing.req)
     default_billing_address: Yes
@@ -66,8 +66,8 @@ billing_exist_signedin_req_physical_withshipping:
     billing_street_address_1: street address 1(billing.req)
     billing_street_address_2: %noValue%
     billing_city: Los Angeles
-    billing_country: United States
-    billing_state: California
+    billing_country: United Kingdom
+#    billing_state: California
     billing_region: %noValue%
     billing_zip_code: 90064
     billing_telephone: (091)019-019(billing.req)
@@ -116,8 +116,8 @@ billing_new_signedin_req_physical: &newBillingSignedInReqPhysical
     billing_street_address_1: street address 1(billing.req)
     billing_street_address_2: %noValue%
     billing_city: Los Angeles
-    billing_country: United States
-    billing_state: California
+    billing_country: United Kingdom
+#    billing_state: California
     billing_region: %noValue%
     billing_zip_code: 90064
     billing_telephone: (091)019-019(billing.req)
@@ -134,8 +134,8 @@ billing_new_signedin_req_virtual: &newBillingSignedInReqVirtual
     billing_street_address_1: street address 1(billing.req)
     billing_street_address_2: %noValue%
     billing_city: Los Angeles
-    billing_country: United States
-    billing_state: California
+    billing_country: United Kingdom
+#    billing_state: California
     billing_region: %noValue%
     billing_zip_code: 90064
     billing_telephone: (091)019-019(billing.req)
@@ -150,8 +150,8 @@ billing_new_signedin_req_physical_withshipping_usa: &newBillingSignedInReqWithSh
     billing_street_address_1: street address 1(billing.req)
     billing_street_address_2: %noValue%
     billing_city: Los Angeles
-    billing_country: United States
-    billing_state: California
+    billing_country: United Kingdom
+#    billing_state: California
     billing_region: %noValue%
     billing_zip_code: 90064
     billing_telephone: (091)019-019(billing.req)
@@ -188,8 +188,8 @@ billing_with_register_req_physical_withshipping: &billingWithRegisterReqWithShip
     billing_street_address_1: street address 1(billing.req)
     billing_street_address_2: %noValue%
     billing_city: Los Angeles
-    billing_country: United States
-    billing_state: California
+    billing_country: United Kingdom
+#    billing_state: California
     billing_region: %noValue%
     billing_zip_code: 90064
     billing_telephone: (091)019-019(billing.req)
@@ -208,8 +208,8 @@ billing_with_register_req_physical: &billingWithRegisterReq
     billing_street_address_1: street address 1(billing.req)
     billing_street_address_2: %noValue%
     billing_city: Los Angeles
-    billing_country: United States
-    billing_state: California
+    billing_country: United Kingdom
+#    billing_state: California
     billing_region: %noValue%
     billing_zip_code: 90064
     billing_telephone: (091)019-019(billing.req)
@@ -228,8 +228,8 @@ billing_with_register_req_virtual: &billingWithRegisterReqVirtual
     billing_street_address_1: street address 1(billing.req)
     billing_street_address_2: %noValue%
     billing_city: Los Angeles
-    billing_country: United States
-    billing_state: California
+    billing_country: United Kingdom
+#    billing_state: California
     billing_region: %noValue%
     billing_zip_code: 90064
     billing_telephone: (091)019-019(billing.req)
@@ -284,8 +284,8 @@ billing_with_register_withshipping_usa: &billingWithRegisterWithShippingUsa
     billing_street_address_1: street address 1(billing.req)
     billing_street_address_2: %noValue%
     billing_city: Los Angeles
-    billing_country: United States
-    billing_state: California
+    billing_country: United Kingdom
+#    billing_state: California
     billing_region: %noValue%
     billing_zip_code: 90064
     billing_telephone: (091)019-019(billing.req)
@@ -325,8 +325,8 @@ billing_guest_req_virtual: &billingGuestReqVirtual
     billing_street_address_1: street address 1(billing.req)
     billing_street_address_2: %noValue%
     billing_city: Los Angeles
-    billing_country: United States
-    billing_state: California
+    billing_country: United Kingdom
+#    billing_state: California
     billing_region: %noValue%
     billing_zip_code: 90064
     billing_telephone: (091)019-019(billing.req)
@@ -341,8 +341,8 @@ billing_guest_req_physical_withshipping: &guestBillingReqWithShipping
     billing_street_address_1: street address 1(billing.req)
     billing_street_address_2: %noValue%
     billing_city: Los Angeles
-    billing_country: United States
-    billing_state: California
+    billing_country: United Kingdom
+#    billing_state: California
     billing_region: %noValue%
     billing_zip_code: 90064
     billing_telephone: (091)019-019(billing.req)
@@ -359,8 +359,8 @@ billing_guest_withshipping_usa: &guestBillingWithShippingUsa
     billing_street_address_1: street address 1(billing.req)
     billing_street_address_2: %noValue%
     billing_city: Los Angeles
-    billing_country: United States
-    billing_state: California
+    billing_country: United Kingdom
+#    billing_state: California
     billing_region: %noValue%
     billing_zip_code: 90064
     billing_telephone: (091)019-019(billing.req)
@@ -400,8 +400,8 @@ shipping_new_signedin_req: &newShippingSignedInReq
     shipping_street_address_1: street address 1(shipping.req)
     shipping_street_address_2: %noValue%
     shipping_city: Los Angeles
-    shipping_country: United States
-    shipping_state: California
+    shipping_country: United Kingdom
+#    shipping_state: California
     shipping_region: %noValue%
     shipping_zip_code: 90064
     shipping_telephone: (091)019-019(shipping.req)

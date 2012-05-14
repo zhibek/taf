@@ -49,18 +49,18 @@ class CheckoutOnePage_Guest_WithProductsTest extends Mage_Selenium_TestCase
     {
         //Data
         $simple = $this->loadData('simple_product_for_order');
-        $virtual = $this->loadData('virtual_product_for_order');
+//        $virtual = $this->loadData('virtual_product_for_order');
         //Steps and Verification
         $this->loginAdminUser();
         $this->navigate('manage_products');
         $this->productHelper()->createProduct($simple);
         $this->assertMessagePresent('success', 'success_saved_product');
-        $this->productHelper()->createProduct($virtual, 'virtual');
-        $this->assertMessagePresent('success', 'success_saved_product');
+//        $this->productHelper()->createProduct($virtual, 'virtual');
+//        $this->assertMessagePresent('success', 'success_saved_product');
 
         return array(
             'simple'  => $simple['general_name'],
-            'virtual' => $virtual['general_name'],
+//            'virtual' => $virtual['general_name'],
         );
     }
 
@@ -124,6 +124,7 @@ class CheckoutOnePage_Guest_WithProductsTest extends Mage_Selenium_TestCase
      * @depends preconditionsForTests
      * @test
      */
+    /*
     public function withVirtualProduct($data)
     {
         //Data
@@ -134,5 +135,5 @@ class CheckoutOnePage_Guest_WithProductsTest extends Mage_Selenium_TestCase
         $this->checkoutOnePageHelper()->frontCreateCheckout($checkoutData);
         //Verification
         $this->assertMessagePresent('success', 'success_checkout');
-    }
+    }*/
 }

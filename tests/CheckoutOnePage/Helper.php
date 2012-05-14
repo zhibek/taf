@@ -88,6 +88,7 @@ class CheckoutOnePage_Helper extends Mage_Selenium_TestCase
         $payMethod = (isset($checkoutData['payment_data'])) ? $checkoutData['payment_data'] : array();
 
         foreach ($products as $data) {
+//var_dump(__FILE__.':'.__LINE__.' - '.$data['general_name']);
             $this->productHelper()->frontOpenProduct($data['general_name']);
             $this->productHelper()->frontAddProductToCart();
         }
@@ -145,7 +146,8 @@ class CheckoutOnePage_Helper extends Mage_Selenium_TestCase
                                        self::$xpathValidationMessage,
                                        $setXpath . self::$notActiveTab));
             if (!$this->isElementPresent($setXpath . self::$notActiveTab)) {
-                $messages = $this->getMessagesOnPage();
+                $messages = $this->getMessagesOnPage($type = null, $specialCaseHtml = true);
+//var_dump($messages);
                 if ($messages !== null) {
                     $messages = implode("\n", call_user_func_array('array_merge', $messages));
                     $this->clearMessages('verification');

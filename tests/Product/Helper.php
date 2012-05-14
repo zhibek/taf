@@ -114,6 +114,8 @@ class Product_Helper extends Mage_Selenium_TestCase
         $tabData = array();
         $needFilling = false;
 
+//var_dump($productData);die;
+        
         foreach ($productData as $key => $value) {
             if (preg_match('/^' . $tabName . '/', $key)) {
                 $tabData[$key] = $value;
@@ -469,6 +471,7 @@ class Product_Helper extends Mage_Selenium_TestCase
         }
         $this->fillTab($productData, 'design');
         $this->fillTab($productData, 'gift_options');
+        $this->fillTab($productData, 'redemption');
         $this->fillTab($productData, 'inventory');
         $this->fillTab($productData, 'websites');
         $this->fillTab($productData, 'categories');
@@ -882,7 +885,7 @@ class Product_Helper extends Mage_Selenium_TestCase
         $this->frontend('product_page');
         $this->addParameter('productName', $productName);
         $openedProductName = $this->getText($this->_getControlXpath('pageelement', 'product_name'));
-        $this->assertEquals($productName, $openedProductName,
+        $this->assertContains($productName, $openedProductName,
                 "Product with name '$openedProductName' is opened, but should be '$productName'");
     }
 

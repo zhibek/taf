@@ -134,6 +134,9 @@ new_product:
                                         general_country_manufacture: //select[@id='country_of_manufacture']
                                         general_user_attr_dropdown: //select[@id='%attibuteCodeDropdown%']
                                     fields:
+                                        general_saleable_from_date: //input[@id='saleable_from_date']
+                                        general_saleable_to_date: //input[@id='saleable_to_date']
+                                        general_barcode: //input[@id='barcode']
                                         general_name: //input[@id='name']
                                         general_description: //textarea[@id='description']
                                         general_short_description: //textarea[@id='short_description']
@@ -164,6 +167,7 @@ new_product:
                                         prices_apply_map: //select[@id='msrp_enabled']
                                         prices_display_actual_price: //select[@id='msrp_display_actual_price_type']
                                     fields:
+                                        prices_pass_value: //input[@id='pass_value']
                                         prices_price: //input[@id='price' and not(@disabled)]
                                         prices_special_price: //input[@id='special_price']
                                         prices_special_price_from: //input[@id='special_from_date']
@@ -253,6 +257,18 @@ new_product:
                                         gift_options_allow_gift_message_default: //input[@id='use_config_gift_message_available']
                                     dropdowns:
                                         gift_options_allow_gift_message: //select[@id='gift_message_available']
+                -
+                    redemption: &redemptionTab
+                        xpath: //a[@title='Redemption']/span
+                        fieldsets:
+                            -
+                                product_redemption:
+                                    xpath: //div[contains(div/div/h4,'Redemption')]
+                                    buttons:
+                                        create_new_attribute: //button[span='Create New Attribute']
+                                    fields:
+                                        redemption_redeem_from_date: //input[@id='redeem_from_date']
+                                        redemption_redeem_to_date: //input[@id='redeem_to_date']
                 -
                     inventory: &inventoryTab
                         xpath: //a[@title='Inventory']/span
@@ -587,6 +603,8 @@ edit_product:
                     design: *designTab
                 -
                     gift_options: *giftOptionsTab
+                -
+                    redemption: *redemptionTab
                 -
                     inventory: *inventoryTab
                 -

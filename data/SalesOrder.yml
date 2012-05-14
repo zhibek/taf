@@ -137,7 +137,7 @@ shipping_address_same_as_blling: &shippingSameAsBilling
 #*********************************************
 
 new_customer:
-    associate_to_website: Main Website
+    associate_to_website: Luxup UK
     group: General
     prefix: 'Mr'
     first_name: 'Steven'
@@ -207,7 +207,7 @@ simple_low_qty:
     inventory_manage_stock: Yes
     inventory_qty: 2
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
 
 simple_with_increments:
     product_attribute_set: Default
@@ -227,7 +227,7 @@ simple_with_increments:
     inventory_qty_increments_default: No
     inventory_qty_increments: 10
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
 
 simple_out_of_stock:
     product_attribute_set: Default
@@ -243,7 +243,7 @@ simple_out_of_stock:
     inventory_manage_stock: Yes
     inventory_qty: 0
     inventory_stock_availability: Out of Stock
-    websites: Main Website
+    websites: Luxup UK
 
 simple_min_allowed_qty:
     product_attribute_set: Default
@@ -261,7 +261,7 @@ simple_min_allowed_qty:
     inventory_min_allowed_qty_default: No
     inventory_min_allowed_qty: 10
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
 
 simple_max_allowed_qty:
     product_attribute_set: Default
@@ -279,10 +279,16 @@ simple_max_allowed_qty:
     inventory_max_allowed_qty_default: No
     inventory_max_allowed_qty: 10
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
 
 simple_product_for_order:
     product_attribute_set: Default
+    general_saleable_from_date: 01/01/2012
+    general_saleable_to_date: 01/01/2014
+    general_barcode: 1
+    prices_pass_value: 1
+    redemption_redeem_from_date: 01/01/2012
+    redemption_redeem_to_date: 01/01/2014
     general_name: Simple Product For Order(%randomize%)
     general_description: Description for Simple Product
     general_short_description: Short Description for Simple Product
@@ -295,12 +301,18 @@ simple_product_for_order:
     inventory_manage_stock: Yes
     inventory_qty: 120
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     custom_options_data: %noValue%
 
 #<------------VIRTUAL------------>
 virtual_product_for_order:
     product_attribute_set: Default
+    general_saleable_from_date: 01/01/2012
+    general_saleable_to_date: 01/01/2014
+    general_barcode: 1
+    prices_pass_value: 1
+    redemption_redeem_from_date: 01/01/2012
+    redemption_redeem_to_date: 01/01/2014
     general_name: Virtual Product For Order(%randomize%)
     general_description: Description for Virtual Product
     general_short_description: Short Description for Virtual Product
@@ -312,7 +324,7 @@ virtual_product_for_order:
     inventory_manage_stock: Yes
     inventory_qty: 120
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     custom_options_data: %noValue%
 
 #<------------DOWNLOADABLE------------>
@@ -345,7 +357,7 @@ downloadable_product_for_order:
     inventory_manage_stock: Yes
     inventory_qty: 120
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     custom_options_data: %noValue%
     downloadable_information_data: *downloadableData
 
@@ -378,7 +390,7 @@ grouped_product_for_order:
     inventory_manage_stock_default: No
     inventory_manage_stock: Yes
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     associated_grouped_data: *associatedProductsGroupedData
 
 #<------------BUNDLE------------>
@@ -451,7 +463,7 @@ fixed_bundle_for_order:
     inventory_manage_stock_default: No
     inventory_manage_stock: Yes
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     bundle_items_data: *bundleData
 
 #<------------CONFIGURABLE------------>
@@ -486,7 +498,7 @@ configurable_product_for_order:
     inventory_manage_stock_default: No
     inventory_manage_stock: Yes
     inventory_stock_availability: In Stock
-    websites: Main Website
+    websites: Luxup UK
     associated_configurable_data: *associatedProductsConfigurableData
 
 #*********************************************
@@ -1179,7 +1191,7 @@ coupon_fixed_amount:
     rule_name: some_name
     description: some_desc
     status: Active
-    websites: Main Website
+    websites: Luxup UK
     customer_groups: General, NOT LOGGED IN
     coupon: Specific Coupon
     coupon_code: coupon_code
@@ -1203,7 +1215,7 @@ coupon_percent:
     rule_name: 123
     description: some_desc
     status: Active
-    websites: Main Website
+    websites: Luxup UK
     customer_groups: General
     coupon: Specific Coupon
     coupon_code: coupon_code

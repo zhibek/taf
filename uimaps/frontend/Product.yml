@@ -27,7 +27,7 @@
 ---
 #
 product_page:
-    mca: %productUrl%.html
+    mca: %productUrl%
     title: %productTitle%
     uimap:
         form:   &productPage
@@ -36,7 +36,7 @@ product_page:
                     product_info: &productInfo
                         xpath: //div[@class='product-essential']
                         buttons:
-                            add_to_cart: //button[span='Add to Cart']
+                            add_to_cart: //button[span='Add to Bag']
                         fields:
                             product_qty: //input[@id='qty']
                             grouped_subproduct_qty: //table[@id='super-product-table']//tr[./td[text()='%subproductName%']]//input[@title='Qty']

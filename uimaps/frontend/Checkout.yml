@@ -52,7 +52,7 @@ onepage_checkout:
                     billing_information:
                         xpath: //ol[@id='checkoutSteps']//li[@id='opc-billing']
                         buttons:
-                            billing_information_continue: //li[@id='opc-billing']//button[span='Continue']
+                            billing_information_continue: //li[@id='opc-billing']//button[span='Proceed to payment information']
                         dropdowns:
                             billing_address_choice: //select[@id='billing-address-select']
                             billing_state: //select[@id='billing:region_id']
